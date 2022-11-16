@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Heropy Coffee" />
+  <meta property="og:title" content="Heropy Coffee Landing" />
+  <meta property="og:description" content="헤로피커피는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+  <meta property="og:image" content="./images/for_seo.jpg" />
+  <meta property="og:url" content="https://epic-darwin-271c77.netlify.app" />
+  <!-- Twitter Cards -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="Heropy Coffee" />
+  <meta property="twitter:title" content="Heropy Coffee Landing" />
+  <meta property="twitter:description" content="헤로피커피는 세계에서 가장 큰 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
+  <meta property="twitter:image" content="./images/for_seo.jpg" />
+  <meta property="twitter:url" content="https://epic-darwin-271c77.netlify.app" />
+
+  <title>기아 - Movement that inspires</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+  <!-- 파비콘 아이콘 -->
+  <link href="./images/favicon.ico" rel='shortcut icon' type="image/x-icon">
+
+  <!-- 구글아이콘 -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+  <!-- 초기화 -->
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+
+  <!-- 레이아웃(헤더, 푸터)-->
+  <link href="./css/layout.css" rel="stylesheet" type="text/css">
+
+  <!-- 공통서식 -->
+  <link href="./css/base.css" rel="stylesheet" type="text/css">
+
+  <!-- 메인콘텐츠 -->
+  <link href="./css/main.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- css3속성사용시 자동으로 접두사 붙여주는 스크립트 소스 -->
+  <script src="./script/prefixfree.min.js"></script>
+
+  <!-- Swiper JS 부드러운 애니메이션 스크립트 소스 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- 스크롤 동작에 따른 애니메이션 스크립트 소스 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <!-- Initialize Swiper -->
+
+  <!-- 부드러운 애니메이션 스크립트 소스 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+  <!-- 스크롤 탑을 위한 스크립트 소스 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+  <!-- 메인스크립트 -->
+  <script src="./script/main.js" defer></script>
+  <script src="./script/jquery.js"></script>
+
+</head>
+
+<body>
+  <!-- 헤더영역 시작 -->
+  <header>
+    <div class="inner">
+      <h1>
+        <a href="index.html" title="메인페이지로 바로가기">
+          <img src="./images/logo.png" alt="상단로고"></a>
+      </h1>
+
+      <nav class="sub_mnu">
+        <ul>
+          <li><a href="#" title="로그인">로그인</a></li>
+          <li><a href="#" title="고객센터">고객센터</a></li>
+          <li><a href="#" title="통합검색">통합검색</a></li>
+        </ul>
+        
+
+        <!-- 검색폼양식 -->
+        <div class="search">
+          <input type="search" placeholder="검색어 입력" id="search">
+          <label for="search">
+            <span class="material-icons">
+              search
+            </span>
+          </label>
+        </div>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </nav>
+      <nav class="gnb">
+        <ul>
+          <li><a href="#" title="차량">차량</a>
+            <div class="item_content">
+              <div class="sub_wrap">
+                <dl class="sub">
+                  <dt>EV&PBV</dt>
+                  <dd><a href="#" title="">니로 EV</a></dd>
+                  <dd><a href="#" title="">EV6</a></dd>
+                  <dd><a href="#" title="">봉고 lll EV</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>승용</dt>
+                  <dd><a href="#" title="">모닝</a></dd>
+                  <dd><a href="#" title="">레이</a></dd>
+                  <dd><a href="#" title="">K3</a></dd>
+                  <dd><a href="#" title="">K5</a></dd>
+                  <dd><a href="#" title="">K8</a></dd>
+                  <dd><a href="#" title="">스팅어</a></dd>
+                  <dd><a href="#" title="">K9</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>SUV</dt>
+                  <dd><a href="#" title="">셀토스</a></dd>
+                  <dd><a href="#" title="">스포티지</a></dd>
+                  <dd><a href="#" title="">쏘렌토</a></dd>
+                  <dd><a href="#" title="">모하비</a></dd>
+                  <dd><a href="#" title="">카니발</a></dd>
+                </dl>
+            </div>
+              <div class="content_texture">
+                <div class="inner">
+                  
+                  <h4>새로운 기아 브랜드를 통해, 우리는 자동차 제조회사를 넘어서 모빌리티 브랜드로 도약합니다.</h4>
+                  <p>우리는 움직일 때 새로운 생각을 할 수 있습니다.
+                    움직임은 곧 새로운 생각, 영감, 그리고 진보입니다.</p>
+                </div>
+              </div>
+  
+            </div>
+          </li>
+  
+          <li><a href="#" title="구매">구매</a>
+            <div class="item_content">
+              <div class="sub_wrap">
+                <dl class="sub">
+                  <dt>견적 내기</dt>
+                  <dd><a href="#" title="">견적 내기</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>할부 계산기</dt>
+                  <dd><a href="#" title="">할부 계산기</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>이 달의 구매 혜택</dt>
+                  <dd><a href="#" title="">이 달의 구매 혜택</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>구매 상담 신청</dt>
+                  <dd><a href="#" title="">구매 상담 신청</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>렌터카</dt>
+                  <dd><a href="#" title="">기아렌터카</a></dd>
+                  <dd><a href="#" title="">기아플렉스</a></dd>
+                </dl>
+             
+              </div>
+  
+              <div class="content_texture">
+                <div class="inner">
+                  
+                  <h4>새로운 기아 브랜드를 통해, 우리는 자동차 제조회사를 넘어서 모빌리티 브랜드로 도약합니다.</h4>
+                  <p>우리는 움직일 때 새로운 생각을 할 수 있습니다.
+                    움직임은 곧 새로운 생각, 영감, 그리고 진보입니다.</p>
+                </div>
+              </div>            
+            </div>
+          </li>
+  
+          <li><a href="#" title="체험">체험</a>
+            <div class="item_content">
+              <div class="sub_wrap">
+                <dl class="sub">
+                  <dt>시승 신청</dt>
+                  <dd><a href="#" title="">시승 신청</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>핀메 네트워크</dt>
+                  <dd><a href="#" title="">판매 네트워크</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>Kia 체험거점</dt>
+                  <dd><a href="#" title="">Kia360</a></dd>
+                  <dd><a href="#" title="">플래그십 스토어</a></dd>
+                  <dd><a href="#" title="">언플러그드 그라운드</a></dd>
+                  <dd><a href="#" title="">Driving Experience</a></dd>
+                </dl>
+              </div>
+  
+              <div class="content_texture">
+                <div class="inner">
+                  
+                  <h4>새로운 기아 브랜드를 통해, 우리는 자동차 제조회사를 넘어서 모빌리티 브랜드로 도약합니다.</h4>
+                  <p>우리는 움직일 때 새로운 생각을 할 수 있습니다.
+                    움직임은 곧 새로운 생각, 영감, 그리고 진보입니다.</p>
+                </div>
+              </div>
+              
+            </div>
+          </li>
+  
+          <li><a href="#" title="event">이벤트</a>
+            <div class="item_content">
+              <div class="sub_wrap">
+                <dl class="sub">
+                  <dt>진행 중인 이벤트</dt>
+                  <dd><a href="#" title="">진행중인 이벤트</a></dd>
+                </dl>
+              </div>
+  
+              <div class="content_texture">
+                <div class="inner">
+                  
+                  <h4>새로운 기아 브랜드를 통해, 우리는 자동차 제조회사를 넘어서 모빌리티 브랜드로 도약합니다.</h4>
+                  <p>우리는 움직일 때 새로운 생각을 할 수 있습니다.
+                    움직임은 곧 새로운 생각, 영감, 그리고 진보입니다.</p>
+                </div>
+              </div>
+              
+            </div>
+          </li>
+  
+          <li><a href="#" title="고객지원">고객지원</a>
+            <div class="item_content">
+              <div class="sub_wrap">
+                <dl class="sub">
+                  <dt>기아멤버스</dt>
+                  <dd><a href="#" title="">기아멤버스</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>고객센터</dt>
+                  <dd><a href="#" title="">고객센터 안내</a></dd>
+                  <dd><a href="#" title="">1:1 문의</a></dd>
+                  <dd><a href="#" title="">FAQ</a></dd>
+                  <dd><a href="#" title="">칭찬 알림방</a></dd>
+                  <dd><a href="#" title="">하자 재발 통보</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>구매 가이드</dt>
+                  <dd><a href="#" title="">구매 프로그램</a></dd>
+                  <dd><a href="#" title="">세금</a></dd>
+                  <dd><a href="#" title="">등록</a></dd>
+                  <dd><a href="#" title="">유의 사항</a></dd>
+                  <dd><a href="#" title="">출하 및 탁송정보</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>공지사항</dt>
+                  <dd><a href="#" title="">공지사항</a></dd>
+                </dl>
+              </div>
+  
+              <div class="content_texture">
+                <div class="inner">
+                  
+                  <h4>새로운 기아 브랜드를 통해, 우리는 자동차 제조회사를 넘어서 모빌리티 브랜드로 도약합니다.</h4>
+                  <p>우리는 움직일 때 새로운 생각을 할 수 있습니다.
+                    움직임은 곧 새로운 생각, 영감, 그리고 진보입니다.</p>
+                </div>
+              </div>
+              
+            </div>
+          </li>
+  
+          <li><a href="#" title="Discover Kia">Discover Kia</a>
+            <div class="item_content">
+              <div class="sub_wrap">
+                <dl class="sub">
+                  <dt>New Kia</dt>
+                  <dd><a href="#" title="">Our Symbol</a></dd>
+                  <dd><a href="#" title="">Our Movement</a></dd>
+                  <dd><a href="#" title="">Our Design</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>뉴스</dt>
+                  <dd><a href="#" title="">뉴스</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>지속가능경영</dt>
+                  <dd><a href="#" title="">지속가능경영</a></dd>
+                </dl>
+                <dl class="sub">
+                  <dt>사업장 안내</dt>
+                  <dd><a href="#" title="">사업장 안내</a></dd>
+                </dl>
+              </div>
+  
+              <div class="content_texture">
+                <div class="inner">
+                  
+                  <h4>새로운 기아 브랜드를 통해, 우리는 자동차 제조회사를 넘어서 모빌리티 브랜드로 도약합니다.</h4>
+                  <p>우리는 움직일 때 새로운 생각을 할 수 있습니다.
+                    움직임은 곧 새로운 생각, 영감, 그리고 진보입니다.</p>
+                </div>
+              </div>
+              
+            </div>
+          </li>
+        </ul>
+      </nav>
+  
+     
+
+    </div>
+  </header>
+
+  <!-- 메인영역 시작  -->
+  <main>
+    <!-- 1. slide-->
+    <article class="mslide">
+      <div  class="slide1">
+        <a href="#" title="이미지1"><img src="./images/slide01.jpg" alt="슬라이드"></a>
+      </div>
+      <div class="slide2">
+        <a href="#" title="이미지1"><img src="./images/slide02.jpg" alt="슬라이드"></a>
+      </div>
+      <div class="slide3">
+        <a href="#" title="이미지1"><img src="./images/slide03.jpg" alt="슬라이드"></a>
+      </div>
+      <div class="slide4">
+        <a href="#" title="이미지1"><img src="./images/slide04.jpg" alt="슬라이드"></a>
+      </div>
+      <div class="slide4">
+        <a href="#" title="이미지1"><img src="./images/slide05.jpg" alt="슬라이드"></a>
+      </div>
+      <i class="fas fa-angle-left"></i>
+      <i class="fas fa-angle-right"></i>
+      <ul class="ctrl_btn">
+        <li class="on">&nbsp;</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+        <li>&nbsp;</li>
+      </ul>
+    </article>
+
+    <!-- 2.공지사항 -->
+    <section class="notice">  
+      <div class="n_inner">
+        <div class="n_inner__left">
+          <h2>공지사항</h2>
+          <div class="swiper s_notice">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="javascript:void(0)" title="">현대자동차 · 기아 '2022 R&D 협력사 테크데이' 개최</a></div>
+              <div class="swiper-slide"><a href="javascript:void(0)" title="">기아, ‘The 2023 K9’ 출시</a></div>
+              <div class="swiper-slide"><a href="javascript:void(0)" title="">개인정보 처리방침 변경 안내 (2022.09.23)</a></div>
+              <div class="swiper-slide"><a href="javascript:void(0)" title="">[당첨자 발표] 전자영수증 이벤트</a></div>
+            </div>
+          </div>
+          <i class="material-icons">add_circle</i>
+        </div>
+
+        <div class="n_inner__right">
+          <h2>Car Promotion</h2>
+          <i class="material-icons toggle_btn">upload</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3.프로모션 -->
+    <section class="promotion">
+      <h2>제목3</h2>
+      <div class="swiper proSlide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/sportage_1.png" alt=""><p>~30,730,000원</p><p>동급 최고의 연비에 드라이빙의 즐거움까지</p><span class="car_name">스포티지</span><a href="javascript:void(0);"
+              title="프로모션1" class="btn">자세히 보기</a></div>
+          <div class="swiper-slide"><img src="./images/k5_1.png" alt=""><p>~24,450,000원</p><p>멈칫할 만큼 강렬하게 다가와 일상을 새롭게 플레이시키다</p><span class="car_name">K5</span><a href="javascript:void(0);"
+              title="프로모션2" class="btn">자세히 보기</a></div>
+          <div class="swiper-slide"><img src="./images/carnival_1.png" alt=""><p>~31,800,000원</p><p>최적화된 성능을 구현하는 스마트 엔진 기술</p><span class="car_name">카니발</span><a href="javascript:void(0);"
+              title="프로모션3" class="btn">자세히 보기</a></div>
+          <div class="swiper-slide"><img src="./images/ev6_1.png" alt=""><p>~51,870,000원</p><p>이제, EV6의 자신감을 믿고 어디든지 떠나세요.</p><span class="car_name">EV6</span><a href="javascript:void(0);"
+              title="프로모션4" class="btn">자세히 보기</a></div>
+          <div class="swiper-slide"><img src="./images/k8_1.png" alt=""><p>~44,680,000원</p><p>The Outstanding, The Kia K8</p><span class="car_name">K8</span><a href="javascript:void(0);"
+              title="프로모션5" class="btn">자세히 보기</a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev">
+          <span class="material-icons">arrow_back</span>
+        </div>
+
+        <div class="swiper-button-next">
+          <span class="material-icons">arrow_forward</span>
+        </div>
+      </div>
+    </section>
+    <!-- 4.리워드 -->
+    <section class="reward">
+      <article class="reward_inner">
+        <span>아직 내 차를 결정하지 못했다면? <br><br>원하는 모델을 찾아보세요.</span>
+        <div class="btn_group">
+          <a href="" title="" class="btn btn_join"><p>상세모델검색</p> <br>
+            꼭 필요한 사양이 포함된 모델을 검색해 보세요.</a>
+          <a href="" title="" class="btn gift"><p>구매 상담</p> <br>
+            신청 라이프스타일에 맞는 모델을 추천해드립니다.
+            </a>
+        </div>
+      </article>
+    </section>
+    
+    <!-- 6.The K9 -->
+    <section class="season-product scroll-spy">
+      <h2>The K9 출시</h2>
+      <article class="inner">
+        <img src="./images/k9_1.png" alt="시즌제품" class="coffee01 back-to-position to-left delay-1">
+        <div class="txt_group">
+        <p class="title  back-to-position to-right delay-2">The 2023 K9</p>
+        <p class="description  back-to-position to-right delay-3">Masters that Inspire <br>
+          58,800,000 원부터</p>
+        <a href="#" title="" class="btn  back-to-position to-right delay-4">견적 보기</a>
+      </div>
+      </article>
+    </section>
+   
+    <!-- find the store -->
+    <section class="find-store scroll-spy">
+      <div class="inner">
+        <p class="picture1  back-to-position to-left">News</p>
+        <p class="picture2  back-to-position to-left">기아의 대표 플래그식 세단,<br><br>
+          The 2023 K9 출시기념 계약 고객 감사 이벤트</p>
+        <div class="more">
+          <a href="javascript:void(0)" class="btn back-to-position to-left">자세히 보기</a>
+        </div>
+        <div class="text-group  back-to-position to-right">
+          <img src="./images/k9_event.jpg" alt="" class="description">
+          
+        </div>
+        
+      </div>
+    </section>
+    <section class="movie">
+      <h2>영상콘텐츠</h2>
+      <div class="youtube">
+        <video autoplay loop muted>
+          <source src="./The new Seltos 런칭 광고 _ FULL.VER.mp4">
+        </video>
+      </div>
+      <!-- <div class="cover"></div> -->
+    </section>
+    <section class="lineUp">
+      <article class="banner_box">
+        <h2>차종 라인업</h2>
+        <nav class="lineUp_lnb">
+          <span class="bt_psg" id="on">승용차</span>
+          <span class="bt_suv">SUV</span>
+        </nav>
+          <div class="passenger">
+            <ul class="tab01">
+              <li><a href=""><img src="./images/k3_2.png" alt=""></a>
+                <p>K3</p>
+              </li>
+              <li><a href=""><img src="./images/k5_2.png" alt=""></a>
+                <p>K5</p>
+              </li>
+              <li><a href=""><img src="./images/k8_2.png" alt=""></a>
+                <p>K8</p>
+              </li>
+              <li><a href=""><img src="./images/k9_2.png" alt=""></a>
+                <p>K9</p>
+              </li>
+              <li><a href=""><img src="./images/stinger_2.png" alt=""></a>
+                <p>Stinger</p>
+              </li>
+            </ul>
+            <div class="banner car_detail">
+              <div class="left">
+              <span class="car_exp">The 2023 K3</span>
+              <p class="sub_exp">역동적인 디자인과
+                운전자를 배려하는 다양한 편의사양</p>
+              <p>가격</p>
+              <span class="car_exp">1785만원~</span>
+              <p><span class="car_exp02">연비 </span> 9.5~14.1 km | <span class="car_exp02">연료 </span> 가솔린</p>
+              <div class="car_btn">
+              <p>견적내기</p>
+              <p>구매상담</p>
+              </div>
+            </div>
+            
+
+              <div class="right"><img src="./images/k3_1.png" alt=""></div>
+            </div>
+            <div class="banner car_detail">
+              <div class="left">
+              <span class="car_exp">The 2023 K5</span>
+              <p class="sub_exp">멈칫할 만큼 강렬하게 다가와 일상을 새롭게 플레이시키다</p>
+              <p>가격</p>
+              <span class="car_exp">2445만원~</span>
+              <p><span class="car_exp02">연비 </span> 20.1 km | <span class="car_exp02">연료 </span> 가솔린</p>
+              <div class="car_btn">
+              <p>견적내기</p>
+              <p>구매상담</p>
+              </div>
+            </div>
+            
+
+              <div class="right"><img src="./images/k5_1.png" alt=""></div>
+            </div>
+            <div class="banner car_detail">
+              <div class="left">
+              <span class="car_exp">The 2023 K8</span>
+              <p class="sub_exp">The Outstanding, 영감은 낯선 곳으로 부터</p>
+              <p>가격</p>
+              <span class="car_exp">3380만원~</span>
+              <p><span class="car_exp02">연비 </span> 18.0 km | <span class="car_exp02">연료 </span> 가솔린</p>
+              <div class="car_btn">
+              <p>견적내기</p>
+              <p>구매상담</p>
+              </div>
+            </div>
+            
+
+              <div class="right"><img src="./images/k8_1.png" alt=""></div>
+            </div>
+            <div class="banner car_detail">
+              <div class="left">
+              <span class="car_exp">The 2023 K9</span>
+              <p class="sub_exp">Masters that Inspire</p>
+              <p>가격</p>
+              <span class="car_exp">5880만원~</span>
+              <p><span class="car_exp02">연비 </span> 9.0 km | <span class="car_exp02">연료 </span> 가솔린</p>
+              <div class="car_btn">
+              <p>견적내기</p>
+              <p>구매상담</p>
+              </div>
+            </div>
+            
+
+              <div class="right"><img src="./images/k9_1.png" alt=""></div>
+            </div>
+            <div class="banner car_detail">
+              <div class="left">
+              <span class="car_exp">The 2023 Stinger</span>
+              <p class="sub_exp">Just the way you are</p>
+              <p>가격</p>
+              <span class="car_exp">3950만원~</span>
+              <p><span class="car_exp02">연비 </span> 11.2 km | <span class="car_exp02">연료 </span> 가솔린</p>
+              <div class="car_btn">
+              <p>견적내기</p>
+              <p>구매상담</p>
+              </div>
+            </div>
+            
+
+              <div class="right"><img src="./images/stinger_1.png" alt=""></div>
+            </div>
+          </div>
+
+         <div class="suv">
+          <ul class="tab02">
+            <li><a href=""><img src="./images/carnival_2.png" alt=""></a>
+              <p>Carnival</p>
+            </li>
+            <li><a href=""><img src="./images/sorento_2.png" alt=""></a>
+              <p>Sorento</p>
+            </li>
+            <li><a href=""><img src="./images/ev6_3.png" alt=""></a>
+              <p>Ev6</p>
+            </li>
+            <li><a href=""><img src="./images/sportage_2.png" alt=""></a>
+              <p>Sportage</p>
+            </li>
+            <li><a href=""><img src="./images/seltos_2.png" alt=""></a>
+              <p>Seltos</p>
+            </li>
+          </ul>
+          <div class="banner suv_detail">
+            <div class="left">
+            <span class="car_exp">Tho 2023 Carnival</span>
+            <p class="sub_exp">커넥팅 라이프의 시작, Connecting Hub</p>
+            <p>가격</p>
+            <span class="car_exp">3180만원~</span>
+            <p><span class="car_exp02">연비</span>13.0 km | <span class="car_exp02">연료</span>가솔린</p>
+            <div class="car_btn">
+            <p>견적내기</p>
+            <p>구매상담</p>
+            </div>
+          </div>
+
+            <div class="right"><img src="./images/carnival_1.png" alt=""></div>
+          </div>
+          <div class="banner suv_detail">
+            <div class="left">
+            <span class="car_exp">The 2023 Sorento</span>
+            <p class="sub_exp">새로운 시대의 플레이</p>
+            <p>가격</p>
+            <span class="car_exp">3058만원~</span>
+            <p><span class="car_exp02">연비</span>14.3 km | <span class="car_exp02">연료</span>가솔린</p>
+            <div class="car_btn">
+            <p>견적내기</p>
+            <p>구매상담</p>
+            </div>
+          </div>
+
+            <div class="right"><img src="./images/sorento_1.png" alt=""></div>
+          </div>
+          <div class="banner suv_detail">
+            <div class="left">
+            <span class="car_exp">The 2023 EV6</span>
+            <p class="sub_exp">Inspiring every journey</p>
+            <p>가격</p>
+            <span class="car_exp">5187만원~</span>
+            <p><span class="car_exp02">연비</span>475 km(1회충전) | <span class="car_exp02">연료</span>전기차</p>
+            <div class="car_btn">
+            <p>견적내기</p>
+            <p>구매상담</p>
+            </div>
+          </div>
+
+            <div class="right"><img src="./images/ev6_1.png" alt=""></div>
+          </div>
+          <div class="banner suv_detail">
+            <div class="left">
+            <span class="car_exp">The 2023 Sportage</span>
+            <p class="sub_exp">혁신적 공간의 고품격 준중형 SUV</p>
+            <p>가격</p>
+            <span class="car_exp">2520만원~</span>
+            <p><span class="car_exp02">연비</span>14.5 km | <span class="car_exp02">연료</span>가솔린</p>
+            <div class="car_btn">
+            <p>견적내기</p>
+            <p>구매상담</p>
+            </div>
+          </div>
+
+            <div class="right"><img src="./images/sportage_1.png" alt=""></div>
+          </div>
+          <div class="banner suv_detail">
+            <div class="left">
+            <span class="car_exp">The new Seltos</span>
+            <p class="sub_exp">하이엔드 감성의 도심형 대표 SUV</p>
+            <p>가격</p>
+            <span class="car_exp">2100만원~</span>
+            <p><span class="car_exp02">연비</span>12.9 km | <span class="car_exp02">연료</span>가솔린</p>
+            <div class="car_btn">
+            <p>견적내기</p>
+            <p>구매상담</p>
+            </div>
+          </div>
+
+            <div class="right"><img src="./images/seltos_1.png" alt=""></div>
+          </div>
+        </div>
+      
+        
+      </article>
+    </section>
+  <!-- 5.유튜브 영상 콘텐츠 -->
+
+   <!-- Awards -->
+   <section class="awards">
+    <div class="inner">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/testimonial1.png" alt="22년 국가고객만족도(NCSI) RV(7년
+            연속),중형(3년 연속), 경형(8년 연속) 1위">
+            <p>22년 국가고객만족도(NCSI) RV(7년
+              연속),중형(3년 연속), 경형(8년 연속) 1위</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/testimonial2.png" alt="22년 한국 산업의 서비스 품질지수
+            우수 콜센터 선정 (19년 연속)">
+            <p>22년 한국 산업의 서비스 품질지수
+              우수 콜센터 선정 (19년 연속)</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/testimonial3.png" alt="22년 한국산업의 서비스 품질지수
+            자동차 A/S부문 1위 (9년 연속)">
+            <p>22년 한국산업의 서비스 품질지수
+              자동차 A/S부문 1위 (9년 연속)</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/testimonial4.png" alt="22년 대한민국 국가브랜드 대상
+            자동차 멤버십 부문 1위 (11년 연속)">
+            <p>22년 대한민국 국가브랜드 대상
+              자동차 멤버십 부문 1위 (11년 연속)</p>
+          </div>
+       
+          <div class="swiper-slide">
+            <img src="./images/testimonial5.png" alt="동반성장 부문(4년 연속)">
+            <p>동반성장 부문(4년 연속)</p>
+          </div>
+        
+        </div>
+      </div>
+      <div class="swiper-button-prev">
+        <span class="material-icons">arrow_back</span>
+      </div>
+      <div class="swiper-button-next">
+        <span class="material-icons">arrow_forward</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <!-- 푸터영역 시작 -->
+  <footer>
+    <a href="#" title="위로 바로가기" class="top_btn">
+      <i class="material-icons">arrow_upward</i>
+    </a>
+    <div class="inner">
+      <ul class="menu">
+        <li><a href="#javascript:void(0)" class="orange">개인정보처리방침</a></li>
+        <li><a href="#javascript:void(0)">프라이버시 센터</a></li>
+        <li><a href="#javascript:void(0)">이용약관</a></li>
+        <li><a href="#javascript:void(0)">윤리경영 사이버감사실</a></li>
+        <li><a href="#javascript:void(0)">전자공고</a></li>
+        <li><a href="#javascript:void(0)">사이트맵</a></li>
+      </ul>
+    </div>
+
+   
+  
+    <div class="logo">
+      <img src="./images/logo_w.png" alt="heropy coffee">
+    </div>
+    <div class="info">
+      <span>판매 네트워크</span>
+      <span>견적내기</span>
+      <span>구매 상담 신청</span>
+      <span>시승신청</span>
+      <span>기아렌터카</span>
+    </div>
+
+    <p class="copyright"> 
+      © Kia Corp. All rights reserved
+    </p>
+  </footer>
+  <script>
+    //1. 사용자가 썸네일 이미지를 클릭하면 해당하는 이미지의 문자열값을 변수에 담는다.
+   $(document).ready(function(){
+ 
+      $('.bt_suv').click(function(){
+        
+        $('.passenger').hide();
+        $('.suv').show();
+        $('.suv_detail').eq(0).show();
+        $('.bt_suv').css('font-weight','bold');
+        $('.bt_psg').css({'font-weight':'normal'});
+      });
+      $('.bt_psg').click(function(){
+        $('.suv').hide();
+        $('.passenger').show();
+        $('.bt_psg').css('font-weight','bold');
+        $('.bt_suv').css({'font-weight':'normal'});
+      });
+
+
+      let n = $('.passenger .car_detail').index();
+
+      // banner
+      $('.passenger .car_detail').eq(0).show();
+
+
+      $('.passenger .tab01 > li').click(function(){
+        n = $(this).index();
+        console.log(n);
+        
+        $('.car_detail').hide();
+        $('.car_detail').eq(n).show();
+        
+        return false;
+      });
+      $('.suv .tab02 > li').click(function(){
+        n = $(this).index();
+        console.log(n);
+        
+        $('.suv_detail').hide();
+        $('.suv_detail').eq(n).show();
+        
+        return false;
+      });
+
+
+   });
+  </script>
+</body>
+
+</html>
